@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 5px 7px 0 0;
+}
+header i{
+    margin: 15px;
+    font-size: 20px;
+}
+header a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    margin: 0 7px;
+    font-size: 13px;
+}
+header button{
+    padding: 10px 24px;
+    font-size: 15px;
+    border: none;
+    background: rgb(87, 130, 247);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+}
+header button:hover{
+    background: rgb(114, 147, 240);
+
+}
+.main .logo{
+    margin-top: 20vh;
+}
+.main .logo h1{
+    font-size: 90px;
+    letter-spacing: -12px;
+    font-weight: 100;
+    
+}
+.main .logo span:first-child{
+    color: rgb(72, 72, 255);
+    padding: -3px;
+}
+.main .logo span:nth-child(2){
+    color: red;
+}
+.main .logo span:nth-child(3){
+    color: orange;
+}
+.main .logo span:nth-child(4){
+    color:rgb(72, 72, 255);
+}
+.main .logo span:nth-child(5){
+    color: rgb(15, 160, 51);
+}
+.main .logo span:nth-child(6){
+    color: red;
+}
+
+
+
+
+
+.search_bar {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+   
+}
+.search_bar div{
+    background: transparent;
+    width: 40%;
+    height: 36px;
+    padding: 5px;
+    border: 1px solid rgb(192, 193, 194);
+    
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.search_bar div:hover{
+    box-shadow: 0 0 6px 2px hsla(0, 0%, 15%, 0.178);
+}
+.search_bar div i{
+    color: rgb(122, 122, 122);
+    margin-left: 20px;
+    margin-right: 8px;
+}
+.search_bar div i:last-child{
+    color: rgb(31, 46, 247);
+    margin-right: 20px;
+    margin-left: 8px;
+}
+.search_bar div input{
+    outline: none;
+    width: 90%;
+    height: 100%;
+    padding: 4px;
+    border: none;
+    font-size: 16px;
+}
+
+
+
+.btn{
+    margin-top: 2.5vh;
+
+}
+.btn button{
+    padding: 8px 12px;
+    border: none;
+    margin: 7px;
+    border-radius: 2.6px;
+    border: 1px solid rgb(243, 242, 242);
+    background: rgb(243, 242, 242);
+
+}
+.btn button:hover{
+   border:1px solid gainsboro;
+
+}
+
+
+
+
+.first {
+    margin-top: 2.5vh;
+}
+.first p{
+    font-size: 13px;
+}
+.first p a{
+    text-decoration: none;
+    color: rgb(74, 74, 255);
+}
+.second {
+    margin-top: 3.6vh;
+}
+.second p{
+    font-size: 13px;
+}
+.second p span{
+    padding: 2.5px;
+    text-decoration: none;
+    color: rgb(74, 74, 255);
+}
